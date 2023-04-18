@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanorona</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="shortcut icon" href="src/img/fanoronier.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="no-winner winner"><strong></strong>
+            <button class="btn" onclick="refresh();click_btn()">Mbola sahy ve!!!</button>
+        </div>
+        <div class="fanoronier">
+            <div class="pos" id="first"></div>
+            <div class="pos" id="second"></div>
+            <div class="pos" id="third"></div>
+            <div class="pos" id="center-left"></div>
+            <div class="pos" id="center"></div>
+            <div class="pos" id="center-right"></div>
+            <div class="pos" id="fourth"></div>
+            <div class="pos" id="fifth"></div>
+            <div class="pos" id="sixth"></div>
+        </div>
+    </div>
+    <audio src="src/sounds/btn-click2.mp3" class="btn-click"></audio>
+    <audio src="src/sounds/piece_move5.mp3" class="piece-sound"></audio>
+    <audio src="src/sounds/invalid-move.mp3" class="invalid-move-sound"></audio>
+    <audio src="src/sounds/invalid-move.mp3" class="invalid-move-sound"></audio>
+    <audio src="src/sounds/winner1.mp3" class="win-sound"></audio>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
